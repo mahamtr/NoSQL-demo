@@ -4,22 +4,19 @@
 ## Generate App LB4
 
 
-```lb4 app
-```
+`lb4 app'
 
 ## Add mongoDB datasource
 
 
-```lb4 datasource
-```
+`lb4 datasource`
 
 Select the MongoDb Option
 
 ## Add model
 
 
-```lb4 model
-```
+`lb4 model`
 
 Follow the prompt to design model
 
@@ -36,22 +33,20 @@ Model example:
 ## Add repository
 
 
-```lb4 respository
-```
+`lb4 respository`
 Select previously added model
 
 ## Add controller
 
 
-```lb4 controller
-```
+`lb4 controller'
 Select previously added repository to add CRUD controller
 
 ## deploy heroku
 
-add "heroku-postbuild": "npm run build"
-update  "start": "node .",
-delete  "prestart": "npm run rebuild",
+--add "heroku-postbuild": "npm run build"
+--update  "start": "node .",
+--delete  "prestart": "npm run rebuild",
 
 from package.json
 
